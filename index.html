@@ -15,7 +15,7 @@
 <body>
 
     <nav class="blue-grey darken-3" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">MARC LO</a>
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><span class="thin">MARC</span> LO</a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">RESUME</a></li>
             </ul>
@@ -29,40 +29,44 @@
     <section class="full-page blue-grey valign-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col l5 m12 blue-grey darken-4">
-                    <h3 class="deep-orange-text center">Software Developer</h3>
+                <div class="center white-text col s12">
+                    <h1 class="thin">Hi there, who are you looking for?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l5 m12 blue-grey darken-4 hoverable">
+                    <h3 class="deep-orange-text center thin">Software Developer</h3>
                 </div>
                 <div class="col l2 m12">
-                    <h3 class="white-text center">X</h3>
+                    <h3 class="white-text center thin"></h3>
                 </div>
-                <div class="col l5 m12 blue-grey darken-4">
-                    <h3 class="amber-text center">Cinematographer</h3>
+                <div class="col l5 m12 blue-grey darken-4 hoverable">
+                    <h3 class="amber-text center thin">Cinematographer</h3>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="introduction">
-        <div class="">
-            <div class="card-panel transparent z-depth-0">
-                <div class="row valign-wrapper">
-                    <div class="col l3 offset-l2 m4 s12">
-                        <img alt="profile pic" class="circle responsive-img" src="img/me.jpg">
-                    </div>
-                    <div class="col l5 m8 s12 justify">
-                        <h3><strong>Who's that guy in the green shirt?</strong></h3>
-                        <h5 class="light">Hi there! My name is Marc Lo and I'm currently studying at University of Waterloo. Software development and film making are what makes my life complete. I've recently fell in love with UI/UX design and I'm trying out things with my projects. When my days have gaps within my overflowing school work, I usually code and occasionally shoot short films for fun. Fencing and soccer are my go-to activities for relieving stress. Co-op placements have taught me so much and I'm able to use them to propel my own projects. You can find out more about my software and video project down below if you keep on scrolling down.</h5>
-                    </div>
+        <div class="card-panel transparent z-depth-0">
+            <div class="row valign-wrapper">
+                <div class="col l3 offset-l2 m4 s12">
+                    <img alt="profile pic" class="circle responsive-img" src="img/me.jpg">
+                </div>
+                <div class="col l5 m8 s12 justify">
+                    <h3><strong>Who's that guy in the green shirt?</strong></h3>
+                    <h5 class="light">Hi there! My name is Marc Lo and I'm currently studying at University of Waterloo. Software development and film making are what makes my life complete. I've recently fell in love with UI/UX design and I'm trying out things with my projects. When my days have gaps within my overflowing school work, I usually code and occasionally shoot short films for fun. Fencing and soccer are my go-to activities for relieving stress. Co-op placements have taught me so much and I'm able to use them to propel my own projects. You can find out more about my software and video project down below if you keep on scrolling down.</h5>
                 </div>
             </div>
-
         </div>
     </section>
-    <section class="work-experience-header">
-        <h1 class="center">WORK EXPERIENCE</h1>
+    <section class="work-experience-header full-page valign-wrapper">
+        <div class="container white-text">
+            <h1 class="center thin">WORK EXPERIENCE</h1>
+        </div>
     </section>
 
-    <section class="work-experience">
+    <section class="work-experience" id="work-experience-timeline">
         <div class="row">
             <div class="col s12">
                 <h1 class="center">2014</h1>
@@ -72,10 +76,10 @@
             <div class="col s6 timeline-left">
                 <div class="row timeline-item">
                     <div class="col s10 offset-s1 l7 offset-l4">
-                        <ul class="collapsible popout" data-collapsible="accordion">
-                            <li>
+                        <ul class="collapsible popout" id="work1-card" data-collapsible="accordion">
+                            <li id="work1">
                                 <div class="collapsible-header company-profile waves-effect waves-red hoverable">
-                                    <img src="img/company_logo/sesame_logo.png" class="center-block" width="100px">
+                                    <img src="img/company-logo/sesame-logo.png" class="center-block" width="100px">
                                     <h4 class="center company-name"><strong>Sesame HQ</strong></h4>
                                     <h5 class="center">Full-Stack Web Developer</h5>
                                 </div>
@@ -90,10 +94,10 @@
                 </div>
                 <div class="row timeline-item">
                     <div class="col s10 offset-s1 l7 offset-l4">
-                        <ul class="collapsible popout" data-collapsible="accordion">
-                            <li>
+                        <ul class="collapsible popout" id="work3-card" data-collapsible="accordion">
+                            <li id="work3">
                                 <div class="collapsible-header company-profile waves-effect waves-green hoverable">
-                                    <img src="img/company_logo/palette_logo.png" class="center-block" style="padding-top:1rem; padding-bottom: 1rem">
+                                    <img src="img/company-logo/palette-logo.png" class="center-block" style="padding-top:1rem; padding-bottom: 1rem">
                                     <h4 class="center company-name"><Strong>Palette</Strong></h4>
                                     <h5 class="center">Software Developer</h5>
                                 </div>
@@ -104,20 +108,16 @@
                         </ul>
                     </div>
                 </div>
-<!--
-                <div class="row timeline-ending">
-                </div>
--->
             </div>
             <div class="col s6 timeline-right">
                 <div class="row timeline-item">
                 </div>
                 <div class="row timeline-item">
                     <div class="col s10 offset-s1 l7 offset-l1">
-                        <ul class="collapsible popout" data-collapsible="accordion">
-                            <li>
+                        <ul class="collapsible popout" id="work2-card" data-collapsible="accordion">
+                            <li id="work2">
                                 <div class="collapsible-header company-profile waves-effect waves-orange hoverable">
-                                    <img src="img/company_logo/imagine_logo.png" class="center-block"  style="padding-top:1rem; padding-bottom: 1rem">
+                                    <img src="img/company-logo/imagine-logo.png" class="center-block" style="padding-top:1rem; padding-bottom: 1rem">
                                     <h4 class="center company-name"><strong>Imagine Communications</strong></h4>
                                     <h5 class="center">Application Developer</h5>
                                 </div>
@@ -130,17 +130,12 @@
                 </div>
                 <div class="row timeline-item">
                 </div>
-<!--
-                <div class="row timeline-ending">
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="center">NOW</h1>
                 </div>
--->
             </div>
-        </div>
-        <div class="row">
-            <div class="col s12">
-                <h1 class="center">NOW</h1>
-            </div>
-        </div>
     </section>
 
     <section class="projects-header">
@@ -149,6 +144,7 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
 </html>

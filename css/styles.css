@@ -28,4 +28,10 @@
 .work-experience {
   background: url("../img/bg/005-subtle-light-patterns.jpg"); }
 
+.work-experience-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg/work-experience-bg/work-experience-header-bg.jpg"); }
+
+#work1, #work2, #work3 {
+  opacity: 0; }
+
 /*# sourceMappingURL=styles.css.map */
