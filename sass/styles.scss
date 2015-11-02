@@ -1,3 +1,35 @@
 .full-page {
     height: 100vh;
 }
+.introduction {
+    background: url("../img/bg/005-subtle-light-patterns.jpg");
+}
+.timeline-left {
+    border-right-width: 3px;
+    border-right-style: solid;
+}
+.timeline-right {
+//    border-left-width: 3px;
+//    border-left-style: solid;
+}
+.company-profile {
+    border-bottom: 0;
+    img {
+        width: 60%;
+    }
+}
+.timeline-item {
+    height: 26vh;
+}
+.timeline-ending {
+    height: 25vh;
+}
+.company-name {
+    padding: 0;
+}
+.justify {
+    text-align: justify;
+}
+.work-experience {
+    background: url("../img/bg/005-subtle-light-patterns.jpg");
+}

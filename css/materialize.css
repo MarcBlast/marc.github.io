@@ -5428,7 +5428,7 @@ a {
 html {
   line-height: 1.5;
   font-family: "Lato", "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   color: rgba(0, 0, 0, 0.87); }
   @media only screen and (min-width: 0) {
     html {
@@ -5441,7 +5441,7 @@ html {
       font-size: 15px; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.1;
   margin: 0; }
 
@@ -5450,39 +5450,39 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
   font-size: 4.2rem;
-  line-height: 110%;
+  line-height: 150%;
   padding: 2.1rem 0 1.68rem 0; }
 
 h2 {
   font-size: 3.56rem;
-  line-height: 110%;
+  line-height: 150%;
   padding: 1.78rem 0 1.424rem 0; }
 
 h3 {
   font-size: 2.92rem;
-  line-height: 110%;
+  line-height: 150%;
   padding: 1.46rem 0 1.168rem 0; }
 
 h4 {
   font-size: 2.28rem;
-  line-height: 110%;
+  line-height: 150%;
   padding: 1.14rem 0 0.912rem 0; }
 
 h5 {
   font-size: 1.64rem;
-  line-height: 110%;
+  line-height: 150%;
   padding: 0.82rem 0 0.656rem 0; }
 
 h6 {
   font-size: 1rem;
-  line-height: 110%;
+  line-height: 150%;
   padding: 0.5rem 0 0.4rem 0; }
 
 em {
   font-style: italic; }
 
 strong {
-  font-weight: 300; }
+  font-weight: 400; }
 
 small {
   font-size: 75%; }
@@ -5565,7 +5565,6 @@ small {
 .card-panel {
   transition: box-shadow .25s;
   padding: 20px;
-  margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
   background-color: #fff; }
 
