@@ -5062,10 +5062,10 @@ nav ul a span.badge {
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 85%; } }
+    width: 90%; } }
 @media only screen and (min-width: 993px) {
   .container {
-    width: 50%; } }
+    width: 55%; } }
 .container .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem; }
@@ -5427,7 +5427,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Lato", "Roboto", sans-serif;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.87); }
   @media only screen and (min-width: 0) {

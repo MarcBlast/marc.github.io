@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection" />
 
+    <link rel="stylesheet" href="animate.min.css">
     <title>Marc Lo</title>
     <meta name="author" content="Marc Lo">
 
@@ -16,43 +17,37 @@
 </head>
 
 <body>
+    <div class="navbar-fixed">
+        <nav class="blue-grey darken-3" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><span class="thin">MARC</span> LO</a>
+                <ul class="right hide-on-med-and-down">
 
-    <nav class="blue-grey darken-3" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><span class="thin">MARC</span> LO</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">RESUME</a></li>
-            </ul>
+                    <li><a href="#about" class="active waves-effect waves-light">ABOUT</a></li>
+                    <li><a href="#interests" class="waves-effect waves-light">INTERESTS</a></li>
+                    <li><a href="#work-experience" class="waves-effect waves-light">EXPERIENCE</a></li>
+                    <li><a href="#projects" class="waves-effect waves-light">PROJECTS</a></li>
+                    <li><a href="#resume" class="waves-effect waves-light">RESUME</a></li>
+                </ul>
 
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">Resume</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
-    <section class="full-page blue-grey valign-wrapper">
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">Resume</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+    <div class="parallax-container valign-wrapper" id="landing-page">
         <div class="container">
             <div class="row">
-                <div class="center white-text col s12">
+                <div class="center white-text col s12 text-shadow">
                     <h1 class="thin">MARC LO</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col l5 m12 blue-grey darken-4 hoverable">
-                    <h3 class="deep-orange-text center thin">Software Developer</h3>
-                </div>
-                <div class="col l2 m12">
-                    <h3 class="white-text center thin"></h3>
-                </div>
-                <div class="col l5 m12 blue-grey darken-4 hoverable">
-                    <h3 class="amber-text center thin">Cinematographer</h3>
+                    <h5 class=""><strong>Web Developer | Computer Engineering</strong></h5>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="parallax-container">
         <div class="parallax"><img src="img/bg/city.jpg"></div>
     </div>
-    <section class="about light">
+    <section class="light" id="about">
         <div class="container">
             <div class="section-intro">
                 <div class="intro-header">
@@ -72,7 +67,7 @@
 
             <div class="section-content row">
                 <div class="col s4">
-                    <div class="center">
+                    <div class="center animate">
                         <i class="large material-icons deep-orange-text text-lighten-1">school</i>
                     </div>
 
@@ -80,13 +75,13 @@
 
                 </div>
                 <div class="col s4">
-                    <div class="center">
+                    <div class="center animate">
                         <i class="large material-icons deep-orange-text text-lighten-1">laptop</i>
                     </div>
                     <p class="center">Comfortable with UI/UX design using HTML, CSS, JavaScript. Love to discover exciting and uprising technologies. Experienced with AngularJS, Django, Qt, JAVA, C#, C++, C, Python.</p>
                 </div>
                 <div class="col s4">
-                    <div class="center">
+                    <div class="center animate">
                         <i class="large material-icons deep-orange-text text-lighten-1">camera</i>
                     </div>
                     <p class="center">Passionate in capturing precious moments and telling heartfelt stories through still and motion pictures. Contact for upcoming opportunities!</p>
@@ -114,7 +109,7 @@
         </div>
     </section>
 -->
-    <section class="interest dark full-page">
+    <section class="dark" id="interests">
         <div class="container">
             <div class="section-intro">
                 <div class="intro-header white-text">
@@ -132,6 +127,25 @@
             </div>
             <div class="section-content row">
                 <div class="col s4 interest-card">
+                    <div class="center">
+                        <i class="large material-icons amber-text">movie</i>
+                        <h5 class="white-text thick"><Strong>Film making</Strong></h5>
+                    </div>
+                    <div class="interest-text white-text">
+                        <p class="center">Film making is my favourite way of telling stories using through creative medium.</p>
+                    </div>
+
+                </div>
+                <div class="col s4 interest-card">
+                    <div class="center">
+                        <i class="large material-icons amber-text">camera_alt</i>
+                        <h5 class="white-text thick"><Strong>Photography</Strong></h5>
+                    </div>
+                    <div class="interest-text white-text">
+                        <p class="center">Best moments in life are impossible reproduce, better capture them with photon-sensitive materials.</p>
+                    </div>
+                </div>
+                <div class="col s4 interest-card">
                     <div class="center interest-icon">
 
                         <i class="large material-icons amber-text ">directions_bike</i>
@@ -142,27 +156,7 @@
                     </div>
 
                 </div>
-                <div class="col s4">
-                    <div class="center">
-                        <i class="large material-icons amber-text">movie</i>
-                        <h5 class="white-text thick"><Strong>Film making</Strong></h5>
-                    </div>
-                    <div class="interest-text white-text">
-                        <p class="center">Film making is my favourite way of telling stories using through creative medium.</p>
-                    </div>
-
-                </div>
-                <div class="col s4">
-                    <div class="center">
-                        <i class="large material-icons amber-text">camera_alt</i>
-                        <h5 class="white-text thick"><Strong>Photography</Strong></h5>
-                    </div>
-                    <div class="interest-text white-text">
-                        <p class="center">Best moments in life are impossible reproduce, better capture them with photon-sensitive materials.</p>
-                    </div>
-                </div>
-
-                <div class="col s4">
+                <div class="col s4 interest-card">
                     <div class="center">
                         <i class="large material-icons amber-text">map</i>
                         <h5 class="white-text thick"><Strong>Travel</Strong></h5>
@@ -171,7 +165,7 @@
                         <p class="center">Born to explore. I believe the best way to spend money is to get to new places and discover new culture.</p>
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col s4 interest-card">
                     <div class="center">
                         <i class="large material-icons amber-text">local_dining</i>
                         <h5 class="white-text thick"><Strong>Gourmet</Strong></h5>
@@ -181,7 +175,7 @@
                     </div>
                 </div>
 
-                <div class="col s4">
+                <div class="col s4 interest-card">
                     <div class="center">
                         <i class="large material-icons amber-text">explore</i>
                         <h5 class="white-text thick"><Strong>Startup</Strong></h5>
@@ -193,7 +187,7 @@
             </div>
         </div>
     </section>
-    <section class="work-experience light" id="work-experience-timeline">
+    <section class="work-experience light" id="work-experience">
         <div class="container">
             <div class="section-intro">
                 <div class="intro-header">
@@ -283,83 +277,89 @@
         </div>
     </section>
 
-    <section class="projects-header full-page valign-wrapper">
-        <div class="container white-tet">
-            <h1 class="center thin">PROJECTS</h1>
-        </div>
-
-    </section>
-
-    <section class="projects full-page">
+    <section class="projects" id="projects">
         <div class="container">
-            <div class="row">
-                <div class="col s3">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/office.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <div class="section-intro">
+                <div class="intro-header">
+                    <h1 class="center thin">PROJECTS</h1>
+                    <div class="row">
+                        <div class="col s2 offset-s5">
+                            <div class="divider">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col s3">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/office.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
+
+                    <div class="intro-text center">
+                        <!--                        <h5 class="center">I'm fortunate enough to gain immence amount of full-time working experience while being a student from co-op placements at University if Waterloo.</h5>-->
                     </div>
                 </div>
-                <div class="col s3">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/office.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/projects/uwwe_web.png">
+                                <span class="card-title">UWWE WEBSITE</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col s3">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/office.jpg">
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/sample-1.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/sample-1.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
                         </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/sample-1.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
+
     </section>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="js/bin/materialize.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
