@@ -2062,7 +2062,7 @@ ul {
 .divider {
   height: 1px;
   overflow: hidden;
-  background-color: #e0e0e0; }
+  background-color: #757575; }
 
 blockquote {
   margin: 20px 0;
@@ -5065,7 +5065,7 @@ nav ul a span.badge {
     width: 85%; } }
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%; } }
+    width: 50%; } }
 .container .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem; }
@@ -5083,7 +5083,7 @@ nav ul a span.badge {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px; }
+  padding-bottom: 20px; }
   .row:after {
     content: "";
     display: table;

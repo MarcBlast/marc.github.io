@@ -1,8 +1,11 @@
 .full-page {
   height: 100vh; }
 
-.introduction {
-  background: url("../img/bg/005-subtle-light-patterns.jpg"); }
+.light {
+  background: url("../img/bg/light.jpg"); }
+
+.dark {
+  background: url("../img/bg/dark.png"); }
 
 .timeline-left {
   border-right-width: 3px;
@@ -25,13 +28,23 @@
 .justify {
   text-align: justify; }
 
-.work-experience {
-  background: url("../img/bg/005-subtle-light-patterns.jpg"); }
-
 .work-experience-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg/work-experience-bg/work-experience-header-bg.jpg"); }
 
 #work1, #work2, #work3 {
   opacity: 0; }
+
+.divider {
+  height: 5px; }
+
+.square-icon {
+  height: 10rem;
+  width: 10rem; }
+
+.section-intro {
+  padding-bottom: 5rem; }
+
+.section-content {
+  padding-bottom: 5rem; }
 
 /*# sourceMappingURL=styles.css.map */
